@@ -32,7 +32,7 @@ pub async fn serve(port: u16, app_state: AppState) -> Result<()> {
 }
 
 async fn api_routes(app_state: AppState) -> Result<Router> {
-    let auth: jwt_authorizer::layer::AsyncAuthorizationLayer<auth::User> =
+    let auth: jwt_authorizer::layer::AuthorizationLayer<auth::User> =
         auth::auth_layer("http://localhost:8101/realms/rodat").await?;
     Ok(Router::new()
         .nest(

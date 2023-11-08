@@ -13,7 +13,7 @@ Es werden diese Themen behandelt:
 
 Diskussion und Kommentare können gern im [Blog](https://ewus.de/blog/2023-10-21/genug-rust-fuer-den-anfang) erfolgen.
 
-# Entwicklung
+## Entwicklung
 
 Um die laufende Entwicklungsumgebung zu betreten, kann dieser Befehl genutzt werden:
 
